@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+    padding: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col3
+{
+font-size: 40px;
+display: flex;
+flex-direction: row;
+list-style-type: none;
+justify-content: space-evenly;
+}
+
+.h1{
+    font-size: 50px;
+}
+.h2{
+    font-size: 50px;
+    
+}
+
+li{
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.blanco{
+    background-color:#FFFFFF;
+}
+
+.gris{
+    background-color: #808080;
+}
+
+.negro{
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+.rojo{
+    background-color: #FF0000;
+}
+.amarillo{
+    background-color: #FFFF00;
+}
+
+

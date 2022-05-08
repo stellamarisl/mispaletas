@@ -1,0 +1,54 @@
+<!--Necesitamos guardar las paletas de colores  que más nos gustan para poder acceder a ellas cuando las necesitemos, el código HTML debe tener:
+
+un título h1 que diga: Mis paletas;
+3 paletas de colores, que consisten en:
+un título h2 con el nombre de la paleta (por ejemplo: Moderna);
+una lista desordenada con 5 ítems;
+cada ítem debe tener como texto código del color, en el sistema correspondiente (por ejemplo, si es blanco y está en hexadecimal #FFFFFF).
+Es necesario tener en cuenta las siguientes consideraciones:
+
+la tipografía de los títulos debe ser Monserrat de Google Fonts;
+los títulos deben tener un tamaño de fuente de 50px;
+cada ítem debe tener como color de fondo el color que representa (por ejemplo, si representa el color negro, tener de color de fondo dicho color);
+se debe considerar el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa;
+los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mis paletas</h1>
+    <ul class="col3">
+        <h2>HEX
+            <li class="blanco">#FFFFFF</li>
+            <li class="gris">#808080</li>
+            <li class="negro">#000000</li>
+            <li class="rojo">#FF0000</li>
+            <li class="amarillo">#FFFF00 </li>
+        </h2>
+        
+        <h2>RGB
+            <li class="blanco">rgb(255, 255, 255)</li>
+            <li class="gris">rgb(128, 128, 128)</li>
+            <li class="negro">rgb(0, 0, 0)</li>
+            <li class="rojo">rgb(255, 0, 0)</li>
+            <li class="amarillo">rgb(255, 255, 0)</li>
+        </h2>
+        <h2>HSL
+            <li class="blanco">hsl(0, 0%, 100%)</li>
+            <li class="gris">hsl(0, 0%, 50%)</li>
+            <li class="negro">hsl(0, 0%, 0%)</li>
+            <li class="rojo">hsl(0, 100%, 50%)</li>
+            <li class="amarillo">hsl(60, 100%, 50%)</li>
+        </h2>
+    </ul>
+    
+    </body>
+    
+    </html>
